@@ -8,7 +8,7 @@ class TodoListApp {
 
     // Constructeur de la classe TodoListApp, initialisant la liste de tâche et le scanner
     public TodoListApp() {
-        this.todoList = new TodoList();
+        this.todoList = new TodoList("savedTask.txt");
         this.scanner = new Scanner(System.in);
     }
 
